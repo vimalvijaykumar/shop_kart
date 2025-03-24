@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_bootstrap5',
     'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,10 +79,10 @@ WSGI_APPLICATION = 'joes_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_joes',
-        'HOST':'localhost',
+        'NAME': 'django_vimal',
+        'HOST':'127.0.0.1',
         'USER':'root',
-        'PASSWORD':'root',
+        'PASSWORD':'2852',
         'PORT':'3306'
     }
 }
